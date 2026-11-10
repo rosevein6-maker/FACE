@@ -1,0 +1,5 @@
+# 테스트 전용 (배포에는 불필요). 설치 후: playwright install chromium
+-r requirements.txt
+pytest==9.2.0
+playwright==1.65.0
+pytest-playwright==0.10.0
